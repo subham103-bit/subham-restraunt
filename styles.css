@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+#searchBar {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #0b7dda;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.dish {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dish h3 {
+  margin: 10px 0;
+}
+
+.dish p {
+  color: #888;
+}
+
+.dish button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.dish button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+

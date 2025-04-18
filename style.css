@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #login {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login h2 {
+    text-align: center;
+  }
+  
+  #login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #login button:hover {
+    background-color: #45a049;
+  }
+  
+  #contact, #social-media {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #social-media .social-icons {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
+  #social-media .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #social-media .social-icons a:hover {
+    color: #4CAF50;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+ 
+  
+ 
+  
